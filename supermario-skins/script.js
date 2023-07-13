@@ -29,6 +29,9 @@ function fire() {
     for (var i = 0; i < corAzul.length; i++) {
       corAzul[i].style.background = 'red';
     }
+    for (var i = 0; i < corNariz.length; i++) {
+      corNariz[i].style.background = 'peachpuff';
+    }
     for (var i = 0; i < corSimbolo.length; i++) {
       corSimbolo[i].style.background = 'red';
     }
