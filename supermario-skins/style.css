@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+table {
+    width: 50px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+
+td {
+    border: 1px;
+    padding: 8px;
+}
+
+.preto {
+    background-color: black;
+}
+
+.azul {
+    background-color: #0909a0;
+}
+
+.vermelho {
+    background-color: #a80c0c;
+}
+
+.marrom {
+    background-color: saddlebrown;
+}
+
+.pele {
+    background-color: peachpuff;
+}
+
+.nariz {
+    background-color: peachpuff;
+}
+
+footer {
+    text-align: center;
+}
+
+.botoes {
+    text-align: center;
+}
+
+.lui:active {
+    background-color: white ;
+    color: #2ba80c;
+    box-shadow: none;
+}
+
+.fi:active {
+    background-color: red ;
+    color: aliceblue;
+    box-shadow: none;
+}
+
+.wa:active {
+    background-color: yellow ;
+    color: #9b0ca8;
+    box-shadow: none;
+}
+
+.lui{
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: #2ba80c;
+    color: white;
+    margin: 10px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.301);
+    
+}
+
+.fi{
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: aliceblue;
+    color: red;
+    margin: 10px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.301);
+}
+
+.wa{
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: #9b0ca8;
+    color: yellow;
+    margin: 10px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.301);
