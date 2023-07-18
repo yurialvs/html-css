@@ -1,0 +1,89 @@
+body {
+    background-color: #0b0b31;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    border: solid 10px rgba(255, 255, 255, 0.075);
+}
+
+header {
+    background-color: #102b4b;
+    padding: 5px;
+    border: solid 10px rgba(255, 255, 255, 0.075);
+    margin-left: auto;
+    margin-right: auto;
+    margin: 5px;
+}
+
+nav {
+    background-color: #115a56;
+    padding: 5px;
+    border: solid 10px rgba(255, 255, 255, 0.075);
+    margin-left: auto;
+    margin-right: auto;
+    margin: 5px;
+}
+
+main {
+    background-color: #115c30;
+    padding: 5px;
+    border: solid 10px rgba(255, 255, 255, 0.075);
+    margin-left: auto;
+    margin-right: auto;
+    margin: 5px;
+}
+
+section {
+    background-color: #187715;
+    padding: 5px;
+    border: solid 10px rgba(255, 255, 255, 0.075);
+    margin-left: auto;
+    margin-right: auto;
+    margin: 5px;
+}
+
+aside {
+    background-color: #58801a;
+    padding: 5px;
+    border: solid 10px rgba(255, 255, 255, 0.075);
+    margin-left: auto;
+    margin-right: auto;
+    margin: 5px;
+}
+
+footer {
+    background-color: #947e1b;
+    padding: 5px;
+    border: solid 10px rgba(255, 255, 255, 0.075);
+    margin-left: auto;
+    margin-right: auto;
+    margin: 5px;
+}
+
+body:hover {
+    background-color: #0b0b31e7;
+}
+
+header:hover {
+    background-color: #102b4b4b
+}
+
+nav:hover {
+    background-color: #115a564f;
+}
+
+main:hover {
+    background-color: #115c3063;
+}
+
+section:hover {
+    background-color: #18771570;
+}
+
+aside:hover {
+    background-color: #57801a4f;
+}
+
+footer:hover {
+    background-color: #947e1b42;
+}
