@@ -1,0 +1,67 @@
+:root {
+ --cor-1: #ffffff;
+ --cor-2: #494949;
+ --cor-3: #1f4134;
+ --cor-4: #5abb8365;
+ --cor-5: #b3b9c0;
+}
+
+body{
+    background-color: var(--cor-1);
+}
+
+#container {
+    display: flex;
+}
+
+header{
+    background-color: var(--cor-3);
+    color: var(--cor-1);
+}
+
+nav {
+    background-color: var(--cor-2);
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: var(--cor-4);
+}
+
+section {
+    background-color: var(--cor-1);
+    width: 100em;
+}
+
+aside {
+    background-color: var(--cor-4);
+    float: right;
+    width: 40em;
+}
+
+footer {
+    background-color: var(--cor-4);
+    text-align: center;
+    font-weight: bolder;
+}
+
+#bart {
+    width: 5em;
+    display: block;
+    margin: auto;
+}
