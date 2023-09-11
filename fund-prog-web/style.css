@@ -7,11 +7,12 @@
 }
 
 body{
-    background-color: var(--cor-1);
+    background-color: var(--cor-3);
 }
 
 #container {
     display: flex;
+    padding: 0px 80px;
 }
 
 header{
@@ -20,12 +21,14 @@ header{
 }
 
 nav {
-    background-color: var(--cor-2);
+    padding-bottom: 5px;
 }
+
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 nav ul li {
@@ -35,7 +38,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: var(--cor-1);
     font-weight: bold;
 }
 
@@ -46,22 +49,32 @@ nav ul li a:hover {
 section {
     background-color: var(--cor-1);
     width: 100em;
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin: 5px 5px;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 0.377) 3px 3px 9px;
 }
 
 aside {
     background-color: var(--cor-4);
     float: right;
     width: 40em;
-}
-
-footer {
-    background-color: var(--cor-4);
-    text-align: center;
-    font-weight: bolder;
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin: 5px 5px;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 0.377) 3px 3px 9px;
 }
 
 #bart {
     width: 5em;
     display: block;
     margin: auto;
+}
+footer {
+    background-color: var(--cor-4);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 12px;
 }
