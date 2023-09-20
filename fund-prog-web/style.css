@@ -6,6 +6,11 @@
  --cor-5: #b3b9c0;
 }
 
+@font-face {
+    font-family: 'picturama';
+    src: url('font/Picturama.otf') format('woff2');
+}
+
 body{
     background-color: var(--cor-3);
 }
@@ -15,9 +20,39 @@ body{
     padding: 0px 80px;
 }
 
+#yuri{
+    font-family: 'picturama';
+    margin-left: 30px;
+}
+
+#yuri2{
+    font-family: 'picturama';
+    font-size: 60px;
+    color: var(--cor-1);
+    margin-left: 30px;
+}
+
+#pag1 {
+    background-color:#1f413400;
+    width: 100em;
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin: 5px 5px;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 0) 3px 3px 9px;
+}
+
 header{
     background-color: var(--cor-3);
     color: var(--cor-1);
+}
+
+#htransparente {
+    color: var(--cor-3);
+}
+
+h4{
+ color: var(--cor-1);
 }
 
 nav {
@@ -65,6 +100,7 @@ aside {
     margin: 5px 5px;
     text-align: justify;
     box-shadow: rgba(0, 0, 0, 0.377) 3px 3px 9px;
+    text-align: center;
 }
 
 #bart {
@@ -72,6 +108,12 @@ aside {
     display: block;
     margin: auto;
 }
+
+img {
+    width: 2em;
+    margin: 8px;
+}
+
 footer {
     background-color: var(--cor-4);
     text-align: center;
