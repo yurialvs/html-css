@@ -160,3 +160,7 @@ a{
 a:hover{
     color: var(--cor-3);
 }
+
+.skills:hover{
+    width: 35px;
+}
