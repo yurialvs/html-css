@@ -1,9 +1,13 @@
 :root {
  --cor-1: #ffffff;
- --cor-2: #494949;
- --cor-3: #1f4134;
- --cor-4: #5abb8365;
- --cor-5: #b3b9c0;
+ --cor-2: #00000028;
+ --cor-3: #2f7777;
+ --cor-4: #ffffff77;
+ --cor-5: #0D0D0D;
+}
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @font-face {
@@ -20,9 +24,18 @@ body{
     padding: 0px 80px;
 }
 
+#icon-centro{
+    text-align: center;
+}
+
 #yuri{
     font-family: 'picturama';
     margin-left: 30px;
+}
+
+@keyframes sumir-e-aparecer {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
 }
 
 #yuri2{
@@ -30,6 +43,7 @@ body{
     font-size: 60px;
     color: var(--cor-1);
     margin-left: 30px;
+    animation: sumir-e-aparecer 3s ease-in-out infinite;
 }
 
 #pag1 {
@@ -115,7 +129,7 @@ img {
 }
 
 footer {
-    background-color: var(--cor-4);
+    background-color: var(--cor-2);
     text-align: center;
     font-weight: bolder;
     font-size: 12px;
