@@ -128,9 +128,35 @@ img {
     margin: 8px;
 }
 
+.imgprojetos {
+    width: 8em;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.txtprojetos {
+    width: 6em;
+    margin: 8px;
+    text-align: center;
+}
+
+.conteudo-proj{
+    text-align: center;
+}
+
 footer {
     background-color: var(--cor-2);
     text-align: center;
     font-weight: bolder;
     font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--cor-5);
+}
+
+a:hover{
+    color: var(--cor-3);
 }
