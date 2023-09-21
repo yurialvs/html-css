@@ -52,20 +52,21 @@ nav ul li a:hover {
 /* Container da pagina inicial */
 #container {
     display: flex;
-    padding: 0px 80px;
+    padding: 10px;
 }
 
 /* Conteúdo da página inicial */
 #ola-yuri {
-    background-color:#1f413400;
+    background-color:#1f4134;
     width: 100em;
     border-radius: 5px;
-    padding: 0px 10px;
-    margin: 5px 5px;
+    padding: 5px;
+    margin: 5px;
     text-align: justify;
     box-shadow: rgba(0, 0, 0, 0) 3px 3px 9px;
     font-family: monospace;
 }
+
 /* Estilização do meu nome de apresentação */
 #yuri-efeito{
     font-family: 'picturama';
@@ -75,6 +76,7 @@ nav ul li a:hover {
     animation: sumir-e-aparecer 3s ease-in-out infinite;
 }
 
+/* Efeito de transição da apresentação do meu nome */
 @keyframes sumir-e-aparecer {
     0%, 100% { opacity: 1; }
     50% { opacity: 0; }
@@ -164,7 +166,7 @@ a:hover{
     width: 35px;
 }
 
-/* Rodapé */
+/* Rodapé das páginas*/
 footer {
     background-color: var(--cor-2);
     text-align: center;
