@@ -1,3 +1,4 @@
+/* Variáveis de cores */
 :root {
  --cor-1: #ffffff;
  --cor-2: #00000028;
@@ -6,47 +7,56 @@
  --cor-5: #0D0D0D;
 }
 
-*{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
+/* Fonte de letra baixada */
 @font-face {
     font-family: 'picturama';
     src: url('font/Picturama.otf') format('woff2');
 }
 
-body{
+/* Corpo da página */
+body {
     background-color: var(--cor-3);
 }
 
+/* Barra de navegação */
+nav {
+    padding: 20px;
+}
+
+/* Centraliza a barra de navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* Coloca a barra de navegação no modo inline */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Estiliza a barra de navegação */
+nav ul li a {
+    text-decoration: none;
+    color: var(--cor-1);
+    font-weight: bold;
+}
+
+/* Modifica a estilização dos itens da barra de navegação ao quando o cursor fica em cima */
+nav ul li a:hover {
+    color: var(--cor-4);
+}
+
+/* Container da pagina inicial */
 #container {
     display: flex;
     padding: 0px 80px;
 }
 
-#icon-centro{
-    text-align: center;
-}
-
-#yuri{
-    font-family: 'picturama';
-    margin-left: 30px;
-}
-
-@keyframes sumir-e-aparecer {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
-}
-
-#yuri2{
-    font-family: 'picturama';
-    font-size: 60px;
-    color: var(--cor-1);
-    margin-left: 30px;
-    animation: sumir-e-aparecer 3s ease-in-out infinite;
-}
-
-#pag1 {
+/* Conteúdo da página inicial */
+#ola-yuri {
     background-color:#1f413400;
     width: 100em;
     border-radius: 5px;
@@ -54,6 +64,38 @@ body{
     margin: 5px 5px;
     text-align: justify;
     box-shadow: rgba(0, 0, 0, 0) 3px 3px 9px;
+    font-family: monospace;
+}
+/* Estilização do meu nome de apresentação */
+#yuri-efeito{
+    font-family: 'picturama';
+    font-size: 60px;
+    color: var(--cor-1);
+    margin-left: 30px;
+    animation: sumir-e-aparecer 3s ease-in-out infinite;
+}
+
+@keyframes sumir-e-aparecer {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+/* Conteúdo lateral do inicio */
+aside {
+    background-color: var(--cor-4);
+    float: right;
+    width: 40em;
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin: 5px 5px;
+    text-align: justify;
+    box-shadow: rgb(255, 255, 255) 0px 0px 5px 1px;
+    text-align: center;
+}
+
+
+#icon-centro{
+    text-align: center;
 }
 
 header{
@@ -65,34 +107,8 @@ header{
     color: var(--cor-3);
 }
 
-h4{
+h2{
  color: var(--cor-1);
-}
-
-nav {
-    padding-bottom: 5px;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: var(--cor-1);
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    color: var(--cor-4);
 }
 
 section {
@@ -103,18 +119,6 @@ section {
     margin: 5px 5px;
     text-align: justify;
     box-shadow: rgba(0, 0, 0, 0.377) 3px 3px 9px;
-}
-
-aside {
-    background-color: var(--cor-4);
-    float: right;
-    width: 40em;
-    border-radius: 5px;
-    padding: 0px 10px;
-    margin: 5px 5px;
-    text-align: justify;
-    box-shadow: rgba(0, 0, 0, 0.377) 3px 3px 9px;
-    text-align: center;
 }
 
 #bart {
@@ -144,12 +148,7 @@ img {
     text-align: center;
 }
 
-footer {
-    background-color: var(--cor-2);
-    text-align: center;
-    font-weight: bolder;
-    font-size: 12px;
-}
+
 
 a{
     text-decoration: none;
@@ -163,4 +162,12 @@ a:hover{
 
 .skills:hover{
     width: 35px;
+}
+
+/* Rodapé */
+footer {
+    background-color: var(--cor-2);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 12px;
 }
