@@ -1,16 +1,30 @@
 /* Variáveis de cores */
 :root {
  --cor-1: #ffffff;
- --cor-2: #00000028;
+ --cor-2: #ffffff0e;
  --cor-3: #2f7777;
  --cor-4: #ffffff77;
  --cor-5: #0D0D0D;
+ --cor-6: #81e6cc;
+ --cor-7: #ffffff31;
 }
 
 /* Fonte de letra baixada */
 @font-face {
     font-family: 'picturama';
     src: url('font/Picturama.otf') format('woff2');
+}
+
+/* Fonte de letra baixada */
+@font-face {
+    font-family: 'gobold';
+    src: url('font/Gobold.otf') format('woff2');
+}
+
+/* Fonte de letra baixada */
+@font-face {
+    font-family: 'Bebas';
+    src: url('font/Bebas.otf') format('woff2');
 }
 
 /* Corpo da página */
@@ -21,6 +35,8 @@ body {
 /* Barra de navegação */
 nav {
     padding: 20px;
+    font-family: 'Bebas';
+    font-size: 18px;
 }
 
 /* Centraliza a barra de navegação */
@@ -46,34 +62,35 @@ nav ul li a {
 
 /* Modifica a estilização dos itens da barra de navegação ao quando o cursor fica em cima */
 nav ul li a:hover {
-    color: var(--cor-4);
+    color: var(--cor-6);
 }
 
 /* Container da pagina inicial */
 #container {
     display: flex;
-    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 80px;
 }
 
 /* Conteúdo da página inicial */
 #ola-yuri {
-    background-color:#1f4134;
+    background-color:#00000000;
     width: 100em;
     border-radius: 5px;
     padding: 5px;
     margin: 5px;
     text-align: justify;
     box-shadow: rgba(0, 0, 0, 0) 3px 3px 9px;
-    font-family: monospace;
 }
 
 /* Estilização do meu nome de apresentação */
 #yuri-efeito{
     font-family: 'picturama';
     font-size: 60px;
-    color: var(--cor-1);
+    color: var(--cor-6);
     margin-left: 30px;
-    animation: sumir-e-aparecer 3s ease-in-out infinite;
+    animation: sumir-e-aparecer 4s ease-in-out infinite;
 }
 
 /* Efeito de transição da apresentação do meu nome */
@@ -109,8 +126,13 @@ header{
     color: var(--cor-3);
 }
 
-h2{
+#h1-white, #h2-white{
  color: var(--cor-1);
+ font-family: 'gobold';
+}
+
+h1{
+    font-family: 'picturama';
 }
 
 section {
@@ -172,4 +194,5 @@ footer {
     text-align: center;
     font-weight: bolder;
     font-size: 12px;
+    color: var(--cor-7);
 }
