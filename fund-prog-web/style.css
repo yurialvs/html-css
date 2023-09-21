@@ -29,7 +29,9 @@
 
 /* Corpo da página */
 body {
-    background-color: var(--cor-3);
+    background: linear-gradient(to bottom, var(--cor-3), var(--cor-6));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* Barra de navegação */
