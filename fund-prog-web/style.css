@@ -1,4 +1,4 @@
-/* Variáveis de cores */
+/* Variáveis das cores */
 :root {
  --cor-1: #ffffff;
  --cor-2: #ffffff0e;
@@ -67,7 +67,7 @@ nav ul li a:hover {
     color: var(--cor-6);
 }
 
-/* Container da pagina inicial */
+/* Container da página inicial */
 #container {
     display: flex;
     justify-content: center;
@@ -114,29 +114,34 @@ aside {
     text-align: center;
 }
 
-
-#icon-centro{
+/* Icones de redes sociais centralizada */
+#redes-centro{
     text-align: center;
 }
 
-header{
-    background-color: var(--cor-3);
-    color: var(--cor-1);
+/* Estilização das imagens das redes sociais ao passar o curso em cima*/
+.redes-img{
+    width: 2em;
+    padding: 10px;
 }
 
-#htransparente {
-    color: var(--cor-3);
+/* Estilização das imagens das redes sociais ao passar o curso em cima*/
+.redes-img:hover{
+    width: 30px;
 }
 
+/* Alteração de cor e fonte do h1 e h2 da página inicial */
 #h1-white, #h2-white{
  color: var(--cor-1);
  font-family: 'gobold';
 }
 
-h1{
+/* Estilização do h1 */
+h1 {
     font-family: 'picturama';
 }
 
+/* Estilização da section */
 section {
     background-color: var(--cor-1);
     width: 100em;
@@ -147,47 +152,46 @@ section {
     box-shadow: rgba(0, 0, 0, 0.377) 3px 3px 9px;
 }
 
+/* GIF do Bart centralizada */
 #bart {
     width: 5em;
     display: block;
     margin: auto;
 }
 
-img {
+/* Estilização das imagens de skills */
+.skills-img {
     width: 2em;
     margin: 8px;
 }
 
+/* Estilização das imagens de skills ao passar o cursor em cima*/
+.skills-img:hover {
+    width: 30px;
+}
+
+/* Centralização dos conteúdos dos projetos */
+.conteudo-proj {
+    text-align: center;
+}
+
+/* Estilização das imagens dos projetos */
 .imgprojetos {
     width: 10em;
     margin: 8px;
     border-radius: 5px;
 }
 
-.txtprojetos {
-    width: 6em;
-    margin: 8px;
-    text-align: center;
-}
-
-.conteudo-proj{
-    text-align: center;
-}
-
-
-
-a{
+/* Estilização dos links em texto */
+a {
     text-decoration: none;
     font-weight: bolder;
-    color: var(--cor-5);
-}
-
-a:hover{
     color: var(--cor-3);
 }
 
-.skills:hover{
-    width: 35px;
+/* Estilização dos links em texto ao passar o cursor em cima*/
+a:hover {
+    color: var(--cor-6);
 }
 
 /* Rodapé das páginas*/
