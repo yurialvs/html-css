@@ -114,6 +114,13 @@ aside {
     text-align: center;
 }
 
+/* Estilização da minha biografia */
+#bio {
+    color: var(--cor-1);
+    padding: 10px 30px;
+    text-align: justify;
+}
+
 /* Icones de redes sociais centralizada */
 #redes-centro{
     text-align: center;
